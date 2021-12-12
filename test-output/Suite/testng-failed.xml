@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="urls" value="http://www.baidu.com"/>
+  <parameter name="keywords" value="jacoco"/>
+  <test thread-count="5" name="Test">
+    <parameter name="urls" value="http://www.baidu.com"/>
+    <parameter name="keywords" value="jacoco"/>
+    <classes>
+      <class name="seleniumTest.TestDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

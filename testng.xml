@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<test thread-count="5" name="Test">
+		<parameter name="urls" value="http://www.baidu.com" />
+		<parameter name="keywords" value="jacoco" />
+		<!-- <packages> <package name="testng01" /> </packages> -->
+		<!-- <groups> <run> <include name="mygroup" /> </run> </groups> -->
+		<classes>
+			<class name="seleniumTest.TestDemo">
+				<!-- <methods> <include name="testcase." /> <exclude name="testcase3" 
+					/> </methods> -->
+			</class>
+		</classes>
+	</test> 
+</suite> 
